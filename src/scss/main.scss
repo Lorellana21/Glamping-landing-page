@@ -1,2 +1,14 @@
 @import "core/variables";
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;505;700&display=swap");
+
+.header {
+  width: 44px;
+  height: 44px;
+  margin: 0 0;
+  background-color: $colormenu;
+  &__menu {
+    width: 16px;
+    height: 14px;
+    padding: 15px 15px 15px 15px;
+  }
+}
