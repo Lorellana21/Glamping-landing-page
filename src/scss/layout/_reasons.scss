@@ -1,0 +1,36 @@
+.reasons {
+  width: 100%;
+  height: auto;
+  background-color: $background-reasons;
+  text-align: center;
+
+  &__title {
+    width: 100%;
+    height: auto;
+    font-size: 24px;
+    line-height: 1.25;
+    text-align: center;
+    font-weight: bold;
+    text-transform: capitalize;
+    //padding-left: 20px;
+  }
+  &__list {
+    list-style: none;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  &__list--item-title {
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.67;
+  }
+  &__list--item-text {
+    width: 100%;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.67;
+  }
+}
