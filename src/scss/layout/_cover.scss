@@ -1,0 +1,15 @@
+.hero {
+  height: 100vh;
+  background: url("../images/cover.jpg");
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__title {
+    color: #ffffff;
+  }
+  &__text {
+    color: #ffffff;
+  }
+}
