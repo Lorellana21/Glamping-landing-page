@@ -50,3 +50,20 @@
     color: $colorheart;
   }
 }
+.footer__all {
+  @media (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-between;
+
+    &__small-we {
+      order: 1;
+    }
+  }
+  @media (min-width: 1200px) {
+    padding-left: 370px;
+    padding-right: 370px;
+    justify-content: space-around;
+  }
+}
