@@ -14,14 +14,15 @@
     text-transform: capitalize;
     padding-bottom: 40px;
 
-    @media (min-width: 780px) {
+    @media (min-width: 768px) {
       font-size: 26px;
-      margin-right: 150px;
-      margin-left: 50px;
+      margin-right: 50px;
+      padding-top: 30px;
     }
 
     @media (min-width: 1200px) {
       font-size: 32px;
+      padding-top: 60px;
     }
   }
   &__list {
@@ -31,12 +32,34 @@
     grid-template-columns: 180px;
     grid-template-rows: 130px 130px 130px;
     padding-left: 70px;
+
+    @media (min-width: 768px) {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr;
+      grid-gap: 50px;
+      margin-right: 50px;
+    }
+    @media (min-width: 1200px) {
+      grid-gap: 90px;
+      margin-right: 100px;
+      margin-left: 100px;
+    }
   }
   &__list--item-title {
     width: 100%;
     font-size: 18px;
     font-weight: bold;
     line-height: 1.67;
+
+    @media (min-width: 768px) {
+      grid-column: span 1;
+      grid-row: 2/3;
+      font-size: 24px;
+    }
+    @media (min-width: 1200px) {
+      font-size: 24px;
+    }
   }
   &__list--item-text {
     width: 100%;
@@ -44,6 +67,13 @@
     font-weight: normal;
     line-height: 1.67;
     text-indent: 10pt;
+
+    @media (min-width: 768px) {
+      font-size: 20px;
+    }
+    @media (min-width: 1200px) {
+      font-size: 20px;
+    }
   }
   &__buttom {
     //width: 184px;
