@@ -4,6 +4,10 @@
   background-color: $background-reasons;
   text-align: center;
 
+  @media (min-width: 768px) {
+    height: 450px;
+  }
+
   &__title {
     width: 100%;
     height: auto;
@@ -42,7 +46,7 @@
     }
     @media (min-width: 1200px) {
       grid-gap: 90px;
-      margin-right: 100px;
+      margin-right: 150px;
       margin-left: 100px;
     }
   }
@@ -70,9 +74,11 @@
 
     @media (min-width: 768px) {
       font-size: 20px;
+      margin-bottom: 80px;
     }
     @media (min-width: 1200px) {
       font-size: 20px;
+      margin-bottom: 80px;
     }
   }
   &__buttom {
@@ -82,11 +88,7 @@
     border-radius: 200px;
     text-align: center;
     line-height: 45px;
-    padding-top: 15px;
-    padding-right: 40px;
-    padding-left: 40px;
-    padding-bottom: 15px;
-    //margin-bottom: 90px;
+    padding: 15px 40px 15px 40px;
     color: $color-white-text;
     font-weight: bold;
     word-spacing: 2pt;
@@ -97,6 +99,11 @@
       text-transform: uppercase;
       color: blue;
       transform: translate(4);
+    }
+    @media (min-width: 768px) {
+      margin-top: 90px;
+    }
+    @media (min-width: 1200px) {
     }
   }
 }
