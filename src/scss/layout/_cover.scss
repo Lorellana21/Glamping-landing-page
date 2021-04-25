@@ -22,7 +22,18 @@
     text-transform: uppercase;
     margin-top: 284px;
     line-height: 55px;
+
+    @media (min-width: 780px) {
+      font-size: 80px;
+      line-height: 106px;
+    }
+
+    @media (min-width: 1200px) {
+      font-size: 100px;
+      line-height: 132px;
+    }
   }
+
   &__text {
     width: 100%;
     height: auto;
@@ -32,7 +43,15 @@
     text-align: center;
     margin: 10px 0 45px 15px;
     font-weight: normal;
+
+    @media (min-width: 780px) {
+      font-size: 16px;
+    }
+    @media (min-width: 1200px) {
+      font-size: 24px;
+    }
   }
+
   &__buttom {
     width: 45px;
     height: 45px;
