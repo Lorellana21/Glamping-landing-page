@@ -13,6 +13,16 @@
     font-weight: bold;
     text-transform: capitalize;
     padding-bottom: 40px;
+
+    @media (min-width: 780px) {
+      font-size: 26px;
+      margin-right: 150px;
+      margin-left: 50px;
+    }
+
+    @media (min-width: 1200px) {
+      font-size: 32px;
+    }
   }
   &__list {
     list-style: none;
