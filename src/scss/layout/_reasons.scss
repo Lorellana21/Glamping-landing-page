@@ -45,9 +45,10 @@
       margin-right: 50px;
     }
     @media (min-width: 1200px) {
-      grid-gap: 90px;
-      margin-right: 150px;
-      margin-left: 100px;
+      grid-gap: 100px;
+      margin-right: 100px;
+      margin-left: 280px;
+      grid-template-columns: 310px 310px 310px;
     }
   }
   &__list--item-title {
