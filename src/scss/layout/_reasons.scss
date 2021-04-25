@@ -50,5 +50,13 @@
     color: $color-white-text;
     font-weight: bold;
     word-spacing: 2pt;
+
+    transition: color ease 1s, border-color ease 1s;
+
+    &:hover {
+      text-transform: uppercase;
+      color: blue;
+      transform: translate(4);
+    }
   }
 }
