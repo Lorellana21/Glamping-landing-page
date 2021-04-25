@@ -1,8 +1,28 @@
-.page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
+.footer {
   width: 100vw;
-  padding: 1rem;
-  color: $color-secondary;
+  height: auto;
+  background-color: $background-footer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px;
+
+  &__buttom {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: $color-white-text;
+    text-align: center;
+    line-height: 60px;
+    transform: translate(0, -50%);
+  }
+  &__list {
+    list-style: none;
+    color: $color-white-text;
+  }
+  &__list--item {
+    text-decoration: none;
+    color: $color-white-text;
+  }
 }
