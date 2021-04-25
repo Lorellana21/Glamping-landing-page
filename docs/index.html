@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="./assets/css/reset.scss" />
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="header">
       <div class="header__menu">
         <a href="https://adalab.es/"
           ><img src="./assets/images/ico-menu.png" alt="Menu"
@@ -47,35 +47,131 @@
         </article>
       </section>
 
-      <section>
-        <h2>3 Reasons To Purchase</h2>
-        <article>Ut sed metusLorem ipsum dolor sit amet, consecteur.</article>
-        Curabitur ac erat Mauris mattis urna quis lorem molestie. Morbi dictum Aliquam
-        in dolor et dolor tincidunt.
-        <p>More reasons</p>
+      <section class="reasons" id="reasons">
+        <h2 class="reasons__title">3 Reasons To Purchase</h2>
+
+        <ul class="reasons__list">
+          <li class="reasons__list--item-1">
+            <article>
+              <h3 class="reasons__list--item-title">Ut sed metus</h3>
+              <p class="reasons__list--item-text">
+                Lorem ipsum dolor sit amet, consecteur.
+              </p>
+            </article>
+          </li>
+          <li class="reasons__list--item-2">
+            <article>
+              <h3 class="reasons__list--item-title">Curabitur ac erat</h3>
+              <p class="reasons__list--item-text">
+                Mauris mattis urna quis lorem molestie.
+              </p>
+            </article>
+          </li>
+          <li class="reasons__list--item-3">
+            <article>
+              <h3 class="reasons__list--item-title">Morbi dictum</h3>
+              <p class="reasons__list--item-text">
+                Aliquam in dolor et dolor tincidunt.
+              </p>
+            </article>
+          </li>
+        </ul>
+
+        <buttom class="reasons__buttom">More reasons</buttom>
       </section>
 
     </main>
-    <footer class="page__footer">
-      <a href="./header.html"><img src="./assets/images/ico-arrow.svg" /></a>
+    <footer class="footer">
+      <div class="footer__buttom" title="Back to top">
+        <a href="#header"><img src="./assets/images/ico-arrow.svg" /></a>
+      </div>
       <nav>
-        <ul>
-          <li>Articles</li>
-          <li>Books</li>
-          <li>Events</li>
-          <li>Reasons</li>
-          <li>Tips</li>
+        <ul class="footer__list">
+          <li>
+            <a
+              href="https://adalab.es/"
+              title="Go to Adalab web"
+              class="footer__list--item"
+              target="_blank"
+            >
+              Articles</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://adalab.es/"
+              title="Go to Adalab web"
+              class="footer__list--item"
+              target="_blank"
+              >Books</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://adalab.es/"
+              title="Go to Adalab web"
+              class="footer__list--item"
+              target="_blank"
+              >Events</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://adalab.es/"
+              title="Go to Adalab web"
+              class="footer__list--item"
+              target="_blank"
+              >Reasons</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://adalab.es/"
+              title="Go to Adalab web"
+              class="footer__list--item"
+              target="_blank"
+              >Tips</a
+            >
+          </li>
         </ul>
       </nav>
       <nav>
-        <ul>
-          <li>Twitter</li>
-          <li>Instagram</li>
-          <li>Mastodon.social</li>
+        <ul class="footer__list">
+          <li>
+            <a
+              href="https://adalab.es/"
+              title="Go to Adalab web"
+              class="footer__list--item"
+              target="_blank"
+              >Twitter</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://adalab.es/"
+              title="Go to Adalab web"
+              class="footer__list--item"
+              target="_blank"
+              >Instagram</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://adalab.es/"
+              title="Go to Adalab web"
+              class="footer__list--item"
+              target="_blank"
+              >Mastodon.social</a
+            >
+          </li>
         </ul>
       </nav>
-      <small> &copy; 2021</small>
-      <small>we ❤︎ components</small>
+      <small class="footer__small-year"> &copy; 2021</small>
+      <small class="footer__small-we">
+        <span>we</span>
+        <span class="footer__small-heart">❤︎</span>
+        <span>components</span>
+      </small>
     </footer>
 
   </body>
