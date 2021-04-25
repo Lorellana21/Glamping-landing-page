@@ -47,7 +47,7 @@
     @media (min-width: 1200px) {
       grid-gap: 100px;
       margin-right: 100px;
-      margin-left: 280px;
+      margin-left: 250px;
       grid-template-columns: 310px 310px 310px;
     }
   }
@@ -83,12 +83,12 @@
     }
   }
   &__buttom {
-    background-color: $color-reasons-buttom;
+    background-color: $color-orange;
     border-radius: 200px;
     text-align: center;
     line-height: 45px;
     padding: 15px 40px 15px 40px;
-    color: $color-white-text;
+    color: $color-white;
     font-weight: bold;
     word-spacing: 2pt;
 
