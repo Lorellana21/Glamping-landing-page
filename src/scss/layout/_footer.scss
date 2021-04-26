@@ -65,21 +65,36 @@
     color: $color-orange;
   }
 }
-.footer__all {
-  @media (min-width: 768px) {
+
+@media (min-width: 768px) {
+  .footer__all {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     width: 90%;
     justify-content: space-between;
     padding-right: 120px;
   }
-
-  @media (min-width: 1200px) {
-    padding-left: 370px;
-    padding-right: 370px;
-    justify-content: space-around;
+  .footer__list {
+    order: 3;
+  }
+  .footer__social {
+  }
+  .footer__small-year {
+    background-color: blue solid 3px;
   }
 }
+
+@media (min-width: 1200px) {
+  .footer__all {
+    padding-left: 370px;
+    padding-right: 370px;
+    justify-content: space-between;
+  }
+  .footer__list {
+    order: -1;
+  }
+}
+
 @keyframes intro {
   from {
     transform: scale(10) rotate(-150deg);
