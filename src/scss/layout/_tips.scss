@@ -2,7 +2,7 @@
   width: 100%;
   padding: 30px 15px 45px;
   @media (min-width: 1200px) {
-    margin-left: 150px;
+    padding-left: 150px;
   }
 
   &__title {
@@ -52,12 +52,13 @@
     @media (min-width: 768px) {
       font-size: 20px;
       line-height: 30px;
-      margin-right: 100px;
-      margin-left: 39px;
+      padding-right: 100px;
+      padding-left: 39px;
     }
     @media (min-width: 1200px) {
-      margin-right: 450px;
-      margin-left: 275px;
+      padding-right: 270px;
+      padding-left: 260px;
+      padding-top: 20px;
     }
   }
   &__buttom {
