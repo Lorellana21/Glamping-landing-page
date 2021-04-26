@@ -48,6 +48,11 @@
     font-size: 16px;
     font-weight: normal;
   }
+  &__copy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   &__small-year {
     color: $color-white;
     font-size: 14px;
@@ -70,28 +75,34 @@
   .footer__all {
     display: flex;
     flex-direction: row;
-    width: 90%;
+    width: 80%;
     justify-content: space-between;
-    padding-right: 120px;
   }
-  .footer__list {
+  .nav-1 {
+    order: 2;
+  }
+  .nav-2 {
     order: 3;
   }
-  .footer__social {
+  .footer__list {
+    align-items: flex-start;
   }
-  .footer__small-year {
-    background-color: blue solid 3px;
+  .footer__social {
+    align-items: flex-start;
+  }
+  .footer__copy {
+    order: 1;
+    align-items: flex-start;
   }
 }
 
 @media (min-width: 1200px) {
   .footer__all {
-    padding-left: 370px;
-    padding-right: 370px;
-    justify-content: space-between;
-  }
-  .footer__list {
-    order: -1;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-evenly;
+    padding-left: 200px;
   }
 }
 
