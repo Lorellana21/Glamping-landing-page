@@ -1,0 +1,29 @@
+.pricing {
+  width: 100vw;
+  background-color: $background-footer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @media (min-width: 768px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  &__title {
+    color: $color-white;
+    text-transform: capitalize;
+    @media (min-width: 768px) {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  &__subtitle {
+    color: $color-white;
+    text-transform: capitalize;
+    @media (min-width: 768px) {
+      margin-left: 30px;
+      margin-right: 30px;
+    }
+  }
+}
