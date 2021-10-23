@@ -7,9 +7,9 @@ The exercise consists of developing a website according to a given design. Sever
 - Use media queries.
 - Solve some interactions using transitions.
 
-#### Mobile version:
+#### Mobile version (the 4 distinct parts are placed in a single column):
 
-![](./images/1.png)
+![](./images/1.png) 
 ![](./images/2.png)
 ![](./images/3.png)
 ![](./images/4.png)
@@ -21,9 +21,9 @@ The exercise consists of developing a website according to a given design. Sever
 ### Layout
 
 1. The _hamburger button_ (in the top left corner) should be fixed at the top of the screen and should not disappear when scrolling. The hamburger icon must be a link to a Adalab´s web page. This hamburger menu does not display any submenus.
-1. First module (_Anonymous proxy_): it must be laid out with flexbox and must occupy the total height of the browser window.
-1. Second module (_Looking Through A Window_): it can be laid out using CSS properties of your choice.
-1. Third module (_3 Reasons To Purchase_): the 3 elements of the list must be laid out with CSS Grid in all screen sizes.
+1. First module (Anonymous proxy): it must be laid out with flexbox and must occupy the total height of the browser window.
+1. Second module (Looking Through A Window): it can be laid out using CSS properties of your choice.
+1. Third module (3 Reasons To Purchase): the 3 elements of the list must be laid out with CSS Grid in all screen sizes.
 1. Fourth module (_footer_): it must be laid out using flexbox. All texts in the column "ARTICLES" and all the texts in the "TWITTER" column must be links to the Adalab page.
 
 ### Interaction
