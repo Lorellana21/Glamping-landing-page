@@ -1,26 +1,28 @@
 .hero {
   height: 100vh;
-  background: url("../images/cover.jpg");
+  background: url("../images/Boutique_Camping_option_2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
   align-items: center;
-  justify-content: center;
+  text-align: center;
+  color: $color-white;
 
+  /*ahora quiero separarlos entre ellos*/
   &__title {
-    width: 100%;
-    height: auto;
-    color: $color-white;
+    // width: 100%;
+    // height: auto;
     font-size: 42px;
     word-spacing: 100vw;
-    flex-direction: column;
-    text-align: center;
+    // flex-direction: column;
+    // text-align: center;
     font-weight: bold;
     letter-spacing: normal;
     text-transform: uppercase;
-    margin-top: 284px;
+    // margin-top: 284px;
     line-height: 55px;
 
     @media (min-width: 768px) {
@@ -29,20 +31,18 @@
     }
 
     @media (min-width: 1200px) {
+      color: rgb(73, 112, 197);
       font-size: 100px;
       line-height: 132px;
     }
   }
 
   &__text {
-    width: 100%;
-    height: auto;
-    color: $color-white;
-    font-size: 16px;
-    flex-direction: column;
-    text-align: center;
-    margin: 10px 0 45px 15px;
-    font-weight: normal;
+    // color: $color-white;
+    font-size: 16px; /*hacer variable*/
+    // flex-direction: column;
+    // text-align: center;
+    // font-weight: normal;
 
     @media (min-width: 768px) {
       font-size: 16px;
@@ -55,11 +55,10 @@
   &__buttom {
     width: 45px;
     height: 45px;
-    margin-top: 45px;
+    margin-bottom: 35px;
     border-radius: 50px;
     text-align: center;
     line-height: 45px;
-    margin-top: 45px;
     background-color: $color-white;
   }
   &__buttom--icon {
