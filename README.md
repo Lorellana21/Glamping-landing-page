@@ -36,6 +36,8 @@ In total, there are several interactions to resolve:
 1. In the hover of the buttons ("Go" and "3 Reasons To Purchase") you must include a transition.
 1. BONUS: make a small animation in the footer button.
 
+***
+
 ## Assessment criteria
 
 **General**:
@@ -63,3 +65,9 @@ In total, there are several interactions to resolve:
 - Use positioning to place fixed and absolute elements on the screen.
 - Use CSS grid to place elements using a grid.
 - Use CSS transitions to add dynamism to a web project.
+
+***
+
+## Module summary:
+
+![LAYOUT](https://user-images.githubusercontent.com/81922944/138562176-eb49302c-03de-4784-8e4c-c71dd99192f4.png)
