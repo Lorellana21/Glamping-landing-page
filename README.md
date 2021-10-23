@@ -7,6 +7,13 @@ The exercise consists of developing a website according to a given design. Sever
 - Use media queries.
 - Solve some interactions using transitions.
 
+#### Mobile version:
+
+![](./images/1.png)
+![](./images/2.png)
+![](./images/3.png)
+![](./images/4.png)
+
 #### Tablet and Desktop version:
 
 ![](./images/Landing-page.png)
