@@ -9,14 +9,14 @@ The exercise consists of developing a website according to a given design. Sever
 
 #### Mobile version (the 4 distinct parts are placed in a single column):
 
-![](./assets/images/1.png)
-![](./assets/images/2.png)
-![](./assets/images/3.png)
-![](./assets/images/4.png)
+![](../assets/images/1.png)
+![](../assets/images/2.png)
+![](../assets/images/3.png)
+![](../assets/images/4.png)
 
 #### Tablet and Desktop version:
 
-![](./assets/images/Landing-page.png)
+![](../assets/images/Landing-page.png)
 
 ### Layout
 

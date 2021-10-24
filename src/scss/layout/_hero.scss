@@ -10,7 +10,7 @@
   gap: 25px;
   color: $color-white;
 
-  &__hero--title {
+  &--title {
     font-size: 42px; /*pasarlo a rem*/
     word-spacing: 100vw;
     font-weight: bold;
@@ -31,7 +31,7 @@
     }
   }
 
-  &__hero--subtitle {
+  &--subtitle {
     font-size: 16px; /*hacer variable*/
 
     @include tablet {
@@ -42,7 +42,7 @@
     }
   }
 
-  &__hero--buttom {
+  &--buttom {
     width: 45px;
     height: 45px;
     margin-bottom: 35px;
