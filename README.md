@@ -16,7 +16,9 @@ The exercise consists of developing a website according to a given design. Sever
 
 #### Tablet and Desktop version:
 
-![](../assets/images/Landing-page.png)
+![](landing-page\src\images\Landing-page.png)
+
+![](./images/Landing-page.png)
 
 ### Layout
 
