@@ -9,7 +9,7 @@ The exercise consists of developing a website according to a given design. Sever
 
 #### Mobile version (the 4 distinct parts are placed in a single column):
 
-![](./images/1.png) 
+![](.assets/images/1.png)
 ![](./images/2.png)
 ![](./images/3.png)
 ![](./images/4.png)
@@ -36,7 +36,7 @@ In total, there are several interactions to resolve:
 1. In the hover of the buttons ("Go" and "3 Reasons To Purchase") you must include a transition.
 1. BONUS: make a small animation in the footer button.
 
-***
+---
 
 ## Assessment criteria
 
@@ -66,7 +66,7 @@ In total, there are several interactions to resolve:
 - Use CSS grid to place elements using a grid.
 - Use CSS transitions to add dynamism to a web project.
 
-***
+---
 
 ## Module summary:
 
