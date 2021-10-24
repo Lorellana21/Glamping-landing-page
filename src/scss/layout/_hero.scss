@@ -1,0 +1,70 @@
+.main__hero {
+  height: 100vh;
+  background: url("../images/Boutique_Camping_option_2.jpg") center no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  gap: 25px;
+  color: $color-white;
+
+  &__hero--title {
+    font-size: 42px; /*pasarlo a rem*/
+    word-spacing: 100vw;
+    font-weight: bold;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    line-height: 55px;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+
+    @include tablet {
+      font-size: 80px;
+      line-height: 106px;
+    }
+
+    @include desktop {
+      color: rgb(73, 112, 197);
+      font-size: 100px;
+      line-height: 132px;
+    }
+  }
+
+  &__hero--subtitle {
+    font-size: 16px; /*hacer variable*/
+
+    @include tablet {
+      font-size: 16px;
+    }
+    @include desktop {
+      font-size: 24px;
+    }
+  }
+
+  &__hero--buttom {
+    width: 45px;
+    height: 45px;
+    margin-bottom: 35px;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 45px;
+    background-color: $color-white;
+
+    @include tablet {
+      margin-bottom: 45px;
+    }
+    @include desktop {
+      margin-bottom: 13px;
+    }
+
+    img {
+      padding: 16.5px 12.5px;
+    }
+  }
+  // &__buttom--icon {
+  //   width: 20px;
+  //   height: 11.7px;
+  //   object-fit: contain;
+  // }
+}
