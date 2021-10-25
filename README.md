@@ -9,7 +9,8 @@ The exercise consists of developing a website according to a given design. Sever
 
 #### Mobile version (the 4 distinct parts are placed in a single column):
 
-![](/images/1.png)
+![](https://drive.google.com/file/d/1HGwjGki__Nl7EqyAnEDt8yjA5eLiMpen/view?usp=sharing)
+
 ![](../assets/images/2.png)
 ![](./images/3.png)
 ![](./assets/images/4.png)
