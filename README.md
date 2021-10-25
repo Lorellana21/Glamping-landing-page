@@ -9,11 +9,11 @@ The exercise consists of developing a website according to a given design. Sever
 
 #### Mobile version (the 4 distinct parts are placed in a single column):
 
-![](https://user-images.githubusercontent.com/81922944/138676418-efe4c8f2-7f3d-4f03-b2eb-0d3ee3b3cbf4.png)
-![](https://user-images.githubusercontent.com/81922944/138676562-d9f42856-5930-4e45-bb1a-6a688a966334.png)
+![1](https://user-images.githubusercontent.com/81922944/138676418-efe4c8f2-7f3d-4f03-b2eb-0d3ee3b3cbf4.png)
+![2](https://user-images.githubusercontent.com/81922944/138676562-d9f42856-5930-4e45-bb1a-6a688a966334.png)
 
-![](https://user-images.githubusercontent.com/81922944/138676645-02e3e273-5430-4a27-8c4d-ae9b3ff07449.png)
-![](https://user-images.githubusercontent.com/81922944/138676707-9fbce726-35da-425c-93ef-1086d81bf9d4.png)
+![3](https://user-images.githubusercontent.com/81922944/138676645-02e3e273-5430-4a27-8c4d-ae9b3ff07449.png)
+![4](https://user-images.githubusercontent.com/81922944/138676707-9fbce726-35da-425c-93ef-1086d81bf9d4.png)
 
 #### Tablet and Desktop version:
 
