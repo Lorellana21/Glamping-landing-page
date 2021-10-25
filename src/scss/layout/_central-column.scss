@@ -1,0 +1,14 @@
+.central-column {
+    margin: 0 auto;
+    background: rgba(200, 200, 200, 0.5);
+    max-width: 500px;
+    @include tablet {
+        max-width: 700px;
+    }
+    @media all and (min-width: 900px) {
+        max-width: 800px;
+    }
+    @include desktop {
+        max-width: 1000px;
+    }
+}
