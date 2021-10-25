@@ -1,6 +1,5 @@
 .reasons {
     background-color: $background-reasons;
-    // height: 650px;
 
     &__title {
         font-weight: bold;
@@ -46,6 +45,10 @@
             @include tablet {
                 font-size: 1.25rem;
             }
+            @include desktop {
+                max-width: 300px;
+                margin: 0 auto;
+            }
         }
         @include tablet {
             width: 100vw;
@@ -72,5 +75,17 @@
         line-height: 2.75rem;
         cursor: pointer;
         transform: translateY(-25px);
+        transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+
+        @include tablet {
+            width: 20vw;
+        }
+        @include desktop {
+            width: 20vw;
+        }
+        &:hover {
+            border: solid 5px;
+            box-shadow: 0 0 40px 40px $background-footer;
+        }
     }
 }
