@@ -8,21 +8,28 @@
       justify-content: space-evenly;
     }
     @include desktop {
-      justify-content: space-evenly;
+      justify-content: space-between;
     }
   }
 
   &__buttom {
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
     border-radius: 50%;
     background-color: $color-white;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: 0 auto;
     transform: translate(0, -50%);
+    cursor: pointer;
+    animation-name: button-footer-move;
+    animation-duration: 1s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+
+    img {
+      padding: 10.5px 12px;
+    }
   }
+
   &__list {
     list-style: none;
     color: $color-white;
@@ -40,7 +47,6 @@
     text-align: center;
     padding-bottom: 40px;
     @include tablet {
-      // align-items: flex-start;
       text-align: left;
     }
   }
@@ -69,7 +75,7 @@
   }
   &__small-we {
     color: $color-white;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: normal;
     line-height: 4;
     margin-bottom: 20px;
@@ -88,15 +94,11 @@
   }
 }
 
-@keyframes intro {
+@keyframes button-footer-move {
   from {
-    transform: scale(10) rotate(-150deg);
-    opacity: 0;
-    color: $color-white;
+    transform: translate(0, -50%) scale(1);
   }
-
   to {
-    transform: scale(1);
-    opacity: 1;
+    transform: translate(0, -20%) scale(1.1);
   }
 }

@@ -11,7 +11,7 @@
   color: $color-white;
 
   &--title {
-    font-size: 42px; /*pasarlo a rem*/
+    font-size: 2.625rem;
     word-spacing: 100vw;
     font-weight: bold;
     letter-spacing: normal;
@@ -20,25 +20,24 @@
     text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
 
     @include tablet {
-      font-size: 80px;
+      font-size: 5rem;
       line-height: 106px;
     }
 
     @include desktop {
       color: rgb(73, 112, 197);
-      font-size: 100px;
+      font-size: 6.25rem;
       line-height: 132px;
     }
   }
 
   &--subtitle {
-    font-size: 16px; /*hacer variable*/
+    font-size: 1rem;
 
     @include tablet {
-      font-size: 16px;
-    }
-    @include desktop {
-      font-size: 24px;
+      font-size: 1.5rem;
+      line-height: 2rem;
+      padding-bottom: 30px;
     }
   }
 
@@ -62,9 +61,4 @@
       padding: 16.5px 12.5px;
     }
   }
-  // &__buttom--icon {
-  //   width: 20px;
-  //   height: 11.7px;
-  //   object-fit: contain;
-  // }
 }
