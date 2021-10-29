@@ -7,15 +7,7 @@ The exercise consists of developing a website according to a given design. Sever
 - Use media queries.
 - Solve some interactions using transitions.
 
-#### Mobile version (the 4 distinct parts):
-
-![1](https://user-images.githubusercontent.com/81922944/138676418-efe4c8f2-7f3d-4f03-b2eb-0d3ee3b3cbf4.png)
-
-![2](https://user-images.githubusercontent.com/81922944/138676562-d9f42856-5930-4e45-bb1a-6a688a966334.png)
-
-![3](https://user-images.githubusercontent.com/81922944/138676645-02e3e273-5430-4a27-8c4d-ae9b3ff07449.png)
-
-![4](https://user-images.githubusercontent.com/81922944/138676707-9fbce726-35da-425c-93ef-1086d81bf9d4.png)
+#### Mobile version (in a single column down)
 
 #### Tablet and Desktop version:
 
@@ -24,19 +16,19 @@ The exercise consists of developing a website according to a given design. Sever
 ### Layout
 
 1. The _hamburger button_ (in the top left corner) should be fixed at the top of the screen and should not disappear when scrolling. The hamburger icon must be a link to a Adalab´s web page. This hamburger menu does not display any submenus.
-1. First module (Anonymous proxy): it must be laid out with flexbox and must occupy the total height of the browser window.
-1. Second module (Looking Through A Window): it can be laid out using CSS properties of your choice.
-1. Third module (3 Reasons To Purchase): the 3 elements of the list must be laid out with CSS Grid in all screen sizes.
-1. Fourth module (_footer_): it must be laid out using flexbox. All texts in the column "ARTICLES" and all the texts in the "TWITTER" column must be links to the Adalab page.
+1. First module (_Hero_): it must be laid out with flexbox and must occupy the total height of the browser window.
+1. Second module (_Tips_): it can be laid out using CSS properties of your choice.
+1. Third module (_3 Reasons_): the 3 elements of the list must be laid out with CSS Grid in at least one screen size.
+1. Fourth module (_Footer_): it must be laid out using flexbox. All texts in the column "ARTICLES" and all the texts in the "TWITTER" column must be links.
 
 ### Interaction
 
 In total, there are several interactions to resolve:
 
-1. The _arrow button_ in the hero module must link to the "3 Reasons To Purchase" section.
+1. The _arrow button_ in the hero module must link to the "3 Reasons" section.
 1. The footer _arrow button_ must link to the top of the page.
 1. All footer links should go to https://adalab.es.
-1. In the hover of the buttons ("Go" and "3 Reasons To Purchase") you must include a transition.
+1. In the hover of the buttons ("Go" and "3 Reasons") you must include a transition.
 1. BONUS: make a small animation in the footer button.
 
 ---
